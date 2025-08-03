@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mülltonnen Reinigung - Dein Reinigungsservice</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0; padding: 0;
+      background-color: #f8f9fa;
+      color: #333;
+    }
+
+    header {
+      background-color: #1e7a3e;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+    }
+
+    .hero {
+      background: url('https://images.unsplash.com/photo-1588879395260-846cd0f7da79') center/cover no-repeat;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 2rem;
+      text-shadow: 1px 1px 5px rgba(0,0,0,0.7);
+    }
+
+    section {
+      padding: 2rem 1rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .services, .prices, .faq {
+      background: white;
+      margin-bottom: 2rem;
+      border-radius: 10px;
+      padding: 1.5rem;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      color: #1e7a3e;
+    }
+
+    .contact-form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .contact-form input, .contact-form textarea {
+      padding: 0.7rem;
+      margin: 0.5rem 0;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    .contact-form button {
+      background: #1e7a3e;
+      color: white;
+      padding: 0.7rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    footer {
+      text-align: center;
+      background: #e9ecef;
+      padding: 1rem;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 600px) {
+      .hero { font-size: 1.5rem; height: 200px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Mülltonnen-Reinigung</h1>
+  <p>Saubere Tonnen – saubere Nachbarschaft!</p>
+</header>
+
+<div class="hero">
+  Monatliche Reinigung ab nur 39 €!
+</div>
+
+<section class="services">
+  <h2>Unsere Leistungen</h2>
+  <ul>
+    <li>Monatliche Reinigung aller Mülltonnen</li>
+    <li>Biotonnen-Spezialreinigung (Geruch & Madenentfernung)</li>
+    <li>Regelmäßige Pflege & Desinfektion</li>
+    <li>Auch Tonnenboxen & Stellplätze möglich</li>
+  </ul>
+</section>
+
+<section class="prices">
+  <h2>Preise</h2>
+  <p><strong>Basis-Abo:</strong> 1x Reinigung im Monat aller Tonnen – <strong>39 €/Monat</strong></p>
+  <p><strong>Einzelreinigung:</strong> auf Anfrage ab 15 €</p>
+</section>
+
+<section class="faq">
+  <h2>Häufige Fragen</h2>
+  <p><strong>Wie läuft die Reinigung ab?</strong><br>Wir kommen am Leerungstag oder direkt danach und reinigen die Tonnen vor Ort mit Heißwasser und Hochdruck.</p>
+  <p><strong>Wie kündige ich?</strong><br>Jederzeit monatlich kündbar – ohne Verpflichtung!</p>
+</section>
+
+<section class="contact">
+  <h2>Kontakt</h2>
+  <form class="contact-form">
+    <input type="text" placeholder="Name" required />
+    <input type="email" placeholder="E-Mail" required />
+    <textarea rows="5" placeholder="Deine Nachricht..." required></textarea>
+    <button type="submit">Absenden</button>
+  </form>
+</section>
+
+<footer>
+  <p>© 2025 Mülltonnen Reinigung | <a href="#">Impressum</a> | <a href="#">Datenschutz</a></p>
+</footer>
+
+</body>
+</html>
